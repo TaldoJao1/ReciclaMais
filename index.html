@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReciclaMais</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      background-color: #f4f4f4;
+      padding: 30px;
+    }
+
+    .header h1 {
+      margin: 10px;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    }
+
+    .menu ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .menu ul li:last-child {
+      margin-right: 30px;
+    }
+
+    .menu ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .menu ul li a:hover {
+      color: #59ff00;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #59ff00;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .info-section {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 30px;
+    }
+
+    .info-section > div {
+      flex-basis: calc(50% - 15px); /* Calcula 50% do espaço disponível menos a margem entre os itens */
+    }
+
+    .info-section h2 {
+      color: #59ff00;
+    }
+
+    .info-section p {
+      color: #333;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>ReciclaMais</h1>
+    <div class="menu">
+      <ul>
+        <li><a href="#materiais">Materiais Recicláveis</a></li>
+        <li><a href="locais.html">Locais</a></li>
+        <li><a href="#outros">Descarte</a></li>
+        <li><a href="#outros">Contato</a></li>
+      </ul>
+    </div>
+    <div class="signup">
+      <a href="cadastro.html" class="button">Cadastre-se</a>
+    </div>
+  </div>
+
+  <div class="info-section">
+    <div>
+      <h2>Por que Reciclar?</h2>
+      <p>Reciclar é uma maneira fundamental de ajudar a preservar nosso meio ambiente. Ao reciclar materiais como plástico, papel, vidro e metal, reduzimos a quantidade de lixo enviado para aterros sanitários, economizamos energia, conservamos recursos naturais e ajudamos a reduzir a poluição.</p>
+    </div>
+    <div>
+      <h2>Como Reciclar?</h2>
+      <p>Reciclar é fácil! Basta separar seus materiais recicláveis do lixo comum e colocá-los em recipientes de reciclagem apropriados. Verifique as diretrizes de reciclagem locais para garantir que você esteja reciclando corretamente.</p>
+    </div>
+    <div>
+      <h2>Onde Reciclar?</h2>
+      <p>Existem muitos locais onde você pode reciclar seus materiais, incluindo centros de reciclagem, pontos de coleta e até mesmo programas de coleta porta a porta. Use o ReciclaMais para encontrar locais de reciclagem próximos a você.</p>
+    </div>
+  </div>
+  
+</body>
+</html>

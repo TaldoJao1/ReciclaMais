@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- https://blog.rocketseat.com.br/html-e-css-criando-um-caixa-de-selecao-personalizada/ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReciclaMais</title>
+    <link rel="stylesheet" href="estilo1.css">
+</head>
+<body>
+    <header>
+        <div class="primeiroCab">
+            <h1>ReciclaMais</h1>
+        </div>
+        <nav class="segundoCab" id="menu">
+            <form action="bairro.php" method="post">
+                <div class="forms">
+                    <label for="bairros"> Depósitos de sucata na Zona Leste de SP, selecione seu bairro:  </label>
+                        <select name="bairros" id="bairros" required="required">
+                            <optgroup label="Selecione seu bairro">
+                                <option name="vila formosa"> <a href="https://www.google.com/search?q=como+comenta+em+html&rlz=1C1FCXM_pt-PTBR999BR999&oq=como+comenta+em+html&aqs=chrome..69i57j0i13i512l3j0i8i13i30l2j0i512i546.5304j0j7&sourceid=chrome&ie=UTF-8"> Vila Formosa </a></option>
+                                <option name="vila carrão"> Vila Carrão </option>
+                                <option name="tatuape"> Tatuapé </option>
+                                <option name="analia franco"> Jardim Analia Franco </option>
+                                <option name="mooca"> Mooca </option>
+                                <option name="sao mateus"> São Mateus </option>
+                                <option name="itaquera"> Itaquera </option>
+                                <option name="Penha"> Penha </option>
+                                <option name="aricanduva"> Aricanduva </option>
+                                <option name="sapopemba"> Sapopemba </option>
+                                <option name="vila prudente"> Vila Prudente </option>
+                                <option name="vila matilde"> Vila Matilde </option>
+                                <option name="cidade lider"> Cidade Líder </option>
+                                <option name="gauainases"> Guaianases </option>
+                            </optgroup>
+                        </select>
+                    <input type="submit" value="Procurar" class="botao">
+                </div>
+            </form>
+        </nav>
+    </header>
+</body>
+<script src="bairro.js"></script>
+</html>
